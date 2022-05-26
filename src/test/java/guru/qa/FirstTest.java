@@ -9,4 +9,9 @@ public class FirstTest {
     void FirstTest(){
         Assertions.assertTrue(3 > 2);
     }
+
+    @Test
+    void SecondTest(){
+        Assertions.assertTrue(4 > 1);
+    }
 }
